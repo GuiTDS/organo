@@ -19,6 +19,11 @@ const Formulario = (props) => {
             imagem, 
             time
         })
+        setNome('');
+        setCargo('');
+        setImagem('');
+        setTime('');
+
     }
 
     return (
@@ -49,7 +54,7 @@ const Formulario = (props) => {
                     obrigatorio={true}
                     label="Time" 
                     itens={props.times}
-                    valor={props.times}
+                    valor={time}
                     aoAlterado={valor => setTime(valor)}
                 />
                 <Botao>
