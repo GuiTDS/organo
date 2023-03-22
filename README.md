@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with alternating feature blocks
+# Organo
 
 ![Design preview for the Organo page](organo/design-preview.png)
 ## Welcome! 👋
