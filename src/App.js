@@ -66,7 +66,7 @@ function App() {
         <Rodape/>
 
     </div>
-  );
+  )
 }
 
 export default App;
