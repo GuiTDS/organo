@@ -51,6 +51,9 @@ function App() {
     setColaboradores([...colaboradores, colaborador]);
   }
 
+  const deletarColaborador = () => {
+    console.log('deletando colaborador');
+  }
 
   return (
     <div className="App">
@@ -62,6 +65,7 @@ function App() {
         corPrimaria={time.corPrimaria} 
         corSecundaria={time.corSecundaria}
         colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+        aoDeletar={deletarColaborador}
         />)}
         <Rodape/>
 
