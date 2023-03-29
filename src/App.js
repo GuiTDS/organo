@@ -224,7 +224,6 @@ function App() {
   }
 
   const deletarColaborador = (id) => {
-    console.log(id);
     setColaboradores(colaboradores.filter(colaborador => colaborador.id !== id));
   }
 

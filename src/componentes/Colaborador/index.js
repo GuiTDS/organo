@@ -7,7 +7,7 @@ const Colaborador = (props) => {
             <AiFillCloseCircle 
                 size={40} 
                 className='deletar' 
-                onClick={() => console.log('chamar funcao de delete: ', props.colaborador)}
+                onClick={() => props.aoDeletar(props.colaborador.id)}
             />
             <div className='cabecalho' style={{backgroundColor: props.corDeFundo}}>
                 <img src={props.imagem} alt={props.nome}/> 
